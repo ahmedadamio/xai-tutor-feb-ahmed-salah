@@ -38,13 +38,13 @@ The easiest way to run the entire application:
 
 ```bash
 # Build and start all services
-docker-compose up --build
+docker compose up --build
 
 # Run in detached mode
-docker-compose up -d --build
+docker compose up -d --build
 
 # Stop all services
-docker-compose down
+docker compose down
 ```
 
 This will start:
