@@ -20,6 +20,18 @@ This is a timed coding exercise to evaluate your ability to build a fullstack ap
 
 ## Setup
 
+### Quick Start with Makefile
+
+```bash
+# Run backend + frontend locally with hot reload
+make dev
+```
+
+```bash
+# Run backend + frontend using Docker
+make docker-all
+```
+
 ### Quick Start with Docker Compose
 
 The easiest way to run the entire application:
