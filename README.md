@@ -162,3 +162,23 @@ Create REST endpoints to support:
 | **Layout & Structure** | 10% | Correct use of flex/grid, semantic HTML |
 
 Good luck!
+
+## Tests
+
+```bash
+# Backend tests
+cd backend
+pytest
+```
+
+```bash
+# Frontend unit tests
+cd frontend
+npm run test
+```
+
+```bash
+# Frontend E2E tests (expects dev server on :3000)
+cd frontend
+npm run test:e2e
+```
