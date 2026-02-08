@@ -464,7 +464,7 @@ export default function MailApp() {
           </div>
         </aside>
 
-        <main className="flex min-w-0 flex-1 flex-col bg-[#fcfcfd]">
+        <main className="flex min-w-0 flex-1 flex-col bg-[#fcfcfd] min-h-0">
           <header className="border-b border-[#e6e7ea] px-6 py-4">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <h1 className="text-[28px] font-semibold tracking-tight text-[#1f2937]">Emails</h1>
@@ -640,7 +640,7 @@ export default function MailApp() {
               </div>
             </section>
 
-            <section className="min-w-0 flex-1 bg-[#fcfcfd] p-5">
+            <section className="min-w-0 flex-1 bg-[#fcfcfd] p-5 overflow-y-auto custom-scrollbar min-h-0">
               {!selectedEmailId ? (
                 <div className="flex h-full items-center justify-center rounded-2xl border border-dashed border-[#d1d5db] text-[14px] text-[#9ca3af]">
                   Select an email to view details.
@@ -652,7 +652,7 @@ export default function MailApp() {
                   <div className="h-[220px] animate-pulse rounded-xl bg-[#eef2f7]" />
                 </div>
               ) : selectedEmail ? (
-                <div className="flex h-full min-h-0 flex-col gap-3">
+                <div className="flex min-h-0 flex-col gap-3">
                   <article className="rounded-2xl border border-[#e5e7eb] bg-white p-4 shadow-[0_12px_24px_rgba(15,23,42,0.05)]">
                     <div className="flex flex-wrap items-start justify-between gap-4 border-b border-[#f1f5f9] pb-3">
                       <div className="flex min-w-0 items-center gap-3">
